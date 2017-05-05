@@ -5,8 +5,8 @@ This is an Graph Database full of activity of the GraphQL community, including
 * Twitter
 * StackOverflow
 * GitHub
-[* Meetups]
-[* Slack]
+* [Meetups]
+* [Slack]
 
 
 ## Information
@@ -37,7 +37,7 @@ curl -i -X POST -u "graphql:graphql" -d'{"query": "{ User(name:\"apollographql\"
 
 ### Model
 
-![](community_graph.png)
+![](https://github.com/community-graph/documentation/raw/master/community_graph.png)
 
 ### Schema
 
