@@ -19,6 +19,12 @@ This is an Graph Database full of activity of the GraphQL community, including
 
 Http-Header for GraphiQL: `Authorization: Basic Z3JhcGhxbDpncmFwaHFs`
 
+Curl Example
+
+```
+curl -i -X POST -u "graphql:graphql" -d'{"query": "{ User(name:\"apollographql\") {name}}"}' -H accept:application/json -H content-type:application/json http://107.170.69.23:7474/graphql/
+```
+
 
 ## Data Model
 
@@ -44,3 +50,14 @@ Http-Header for GraphiQL: `Authorization: Basic Z3JhcGhxbDpncmFwaHFs`
 * people activity (over time, when are they falling off)
 * channel activity
 * identify frequent questions / topics
+
+
+## Screenshots
+
+![](images/graphql-community-header.jpg)
+![](images/graphql-community-introspection.jpg)
+![](images/grapiql-simple-query.jpg)
+![](images/graphql-community-query-leeb.jpg)
+![](images/graphql-community-voyager.jpg)
+![](images/graphql.execute.jpg)
+![](images/graphql.schema.jpg)
