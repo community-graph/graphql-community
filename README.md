@@ -19,10 +19,16 @@ This is an Graph Database full of activity of the GraphQL community, including
 
 Http-Header for GraphiQL: `Authorization: Basic Z3JhcGhxbDpncmFwaHFs`
 
-Curl Example
+### Curl Example
 
 ```
 curl -i -X POST -u "graphql:graphql" -d'{"query": "{ User(name:\"apollographql\") {name}}"}' -H accept:application/json -H content-type:application/json http://107.170.69.23:7474/graphql/
+```
+
+### Post IDL
+
+```
+curl -i -X POST -u "neo4j:********" -d@community-graph.schema http://107.170.69.23:7474/graphql/idl/
 ```
 
 
